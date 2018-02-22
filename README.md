@@ -21,3 +21,20 @@ git clone https://github.com/Talw3g/pytoolbox
 cd pytoolbox
 sudo python3 setup.py install
 ```
+
+## Usage
+
+##### colortxt:
+```python
+from pytoolbox import colortxt
+print(colortxt.ctxt('foobar', 'red', blink=True, bgcol='wht'))
+print(colortxt.ctxt('foobar', 'blue', 'grn'))
+print(colortxt.ctxt('foobar', 'yel'))
+```
+
+##### confirm:
+```python
+from pytoolbox import confirm
+question = 'foobar ?'
+confirm.confirm(question, 'no')
+```
