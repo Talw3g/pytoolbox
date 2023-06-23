@@ -13,13 +13,8 @@ This project currently includes the following modules:
 
 ## Installation
 
-Currently, only installation via Github is supported.
-
-#### Using Github:
 ```bash
-git clone https://github.com/Talw3g/pytoolbox
-cd pytoolbox
-sudo python3 setup.py install
+pip install pytoolbox-talw3g
 ```
 
 ## Usage
